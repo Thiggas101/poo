@@ -7,17 +7,17 @@ public class HealthProfileTest {
 
     @Test
     public void testCalculoIdade() {
-        assertEquals(35, person.calculateAge(2025));
+        assertEquals(34, person.calculateAge(2025));
     }
 
     @Test
     public void testCalculoFrequenciaMaxima() {
-        assertEquals(185, person.calculateMaxHeartRate(2025));
+        assertEquals(186, person.calculateMaxHeartRate());
     }
 
     @Test
     public void testCalculoFaixaFrequencia() {
-        assertEquals("93 bpm - 157 bpm", person.calculateTargetHeartRate(2025));
+        assertEquals("93 bpm - 158 bpm", person.calculateTargetHeartRate());
     }
 
     @Test

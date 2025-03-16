@@ -13,15 +13,15 @@ public class ParkingGarageTest {
     @Test
     public void testAdditionalChargeForMoreThan3Hours() {
         assertEquals(2.50, ParkingGarage.calculateCharges(3.5), 0.01);
-        assertEquals(3.00, ParkingGarage.calculateCharges(4.0), 0.01);
-        assertEquals(3.50, ParkingGarage.calculateCharges(5.0), 0.01);
-        assertEquals(6.00, ParkingGarage.calculateCharges(9.0), 0.01);
+        assertEquals(2.50, ParkingGarage.calculateCharges(4.0), 0.01);
+        assertEquals(3.00, ParkingGarage.calculateCharges(5.0), 0.01);
+        assertEquals(5.00, ParkingGarage.calculateCharges(9.0), 0.01);
     }
 
     @Test
     public void testMaximumChargeFor24Hours() {
         assertEquals(10.00, ParkingGarage.calculateCharges(24.0), 0.01);
-        assertEquals(10.00, ParkingGarage.calculateCharges(15.0), 0.01);
+        assertEquals(8.00, ParkingGarage.calculateCharges(15.0), 0.01);
     }
 
     @Test

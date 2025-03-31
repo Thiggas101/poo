@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IDPBank {
+public class IDPBank2 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
@@ -22,11 +22,11 @@ public class IDPBank {
             switch (escolha) {
                 case 1 -> customer = createCustomer();
 
-                case 2 -> consultarCliente(customer);                
+                case 2 -> openAccount(customer);                
 
-                case 3 -> depositar(customer);                
+                case 3 -> deposit(customer);                
 
-                case 4 -> sacar();                
+                case 4 -> withdraw();                
 
                 case 5 ->{ 
                 System.out.println("Obrigado por usar o IDP Bank.");
@@ -42,7 +42,7 @@ public class IDPBank {
         }
     }
 
-    public static Customer createCustomer(){
+    public static Customer createCustomer(String firstName, String lastName, String CPF){
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nDigite os dados para a abertura da conta.\n");
 
@@ -68,7 +68,7 @@ public class IDPBank {
         return customer;       
         }
 
-    public static void consultarCliente(Customer customer) {
+    public static Account openAccount (Customer customer) {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println(customer.displayInformation());
@@ -76,7 +76,7 @@ public class IDPBank {
         
     }
 
-    public static void depositar(Customer customer) {
+    public static double deposit(double amount) {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o valor que deseja depositar.\n\n");
@@ -93,7 +93,7 @@ public class IDPBank {
         
     }
     
-    public static void sacar() {
+    public static double withdraw() {
         System.out.println("Método de saque ainda não implementado.");
         
     }

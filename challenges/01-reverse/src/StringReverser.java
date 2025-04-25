@@ -6,11 +6,13 @@ public class StringReverser {
         
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite uma string: ");
-            String input = scanner.nextLine();
+            String input = poo.nextLine();
+
             System.out.printf("String invertida: %s\n", reverse(input));
         }
     }
 
+    public static String reverse(String inputString) {
     public static String reverse(String inputString) {
         if (inputString == null || inputString.isEmpty()) {
             throw new IllegalArgumentException("A string não pode ser nula ou vazia.");

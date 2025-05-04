@@ -29,13 +29,13 @@ Você foi contratado para desenvolver um sistema de controle de estacionamento p
 
 #### Exemplo de saída esperada
 ```
-Veículo: Carro - Placa: ABC-1234 - Marca: Toyota - Modelo: Corolla
+Carro - Placa: ABC-1234 - Marca: Toyota - Modelo: Corolla
 Valor a pagar por 4h: R$ 20.00
 
-Veículo: Moto - Placa: XYZ-5678 - Marca: Honda - Modelo: CG 160
+Moto - Placa: XYZ-5678 - Marca: Honda - Modelo: CG 160
 Valor a pagar por 4h: R$ 12.00
 
-Veículo: Caminhão - Placa: KLM-9090 - Marca: Volvo - Modelo: FH 540
+Caminhão - Placa: KLM-9090 - Marca: Volvo - Modelo: FH 540
 Valor a pagar por 4h: R$ 40.00
 ```
 

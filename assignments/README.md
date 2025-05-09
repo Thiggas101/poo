@@ -124,3 +124,4 @@ javap -cp bin/ -c HelloWorld
 | 3 | [Parking](./11-parking)  |
 |   | [Savings Account](./12-savings) |
 | 4 | [Books](./13-books)  |
+| 5 | [Exception](./14-exception/) |

@@ -10,8 +10,8 @@ O objetivo do sistema é possibilitar que os clientes possam abrir contas bancá
 
 O sistema deverá permitir:
 
-* Cadastrar de clientes
-* Abrir de conta
+* Cadastrar clientes
+* Abrir conta
 * Realizar depósitos e saques
 * Aplicar taxas e rendimentos
 * Gerar relatórios e auditoria de transações
@@ -22,9 +22,10 @@ O projeto será implementado em 4 semanas, cada uma focada em um conjunto de fun
 
 | Semana | Funcionalidade | Objetivo | Passo a passo |
 |---|---|--- | --- |
-| 1 | [Cadastro e abertura de contas](#semana-1-cadastro-e-abertura-de-contas) | Aplicar os conceitos de classe, objeto, atributos, métodos, atributos e métodos de classe (static), modificadores de acesso, get e set, sobrecarga (_overload_) de métodos e construtores, palavra reservada _this_ | [1. Criando estrutura do projeto](https://www.loom.com/share/c73ab9d62c37401fa459efb0aed976a5?sid=dd1790a9-5f66-4c21-949e-f7aed289a0b1) <br> [2. Criando classe IDP Bank](https://www.loom.com/share/0067cbcf3ce4403fafc95d2b726992ec?sid=2f97e15d-b962-4fcc-b613-b429d12666c9) <br> [3. Criando classe Customer](https://www.loom.com/share/8e4158403ab545f6803ab947e54bd9bb?sid=47477420-2df7-4441-a3ac-1f548811bb6e) <br> [4. Criando classe customer](https://www.loom.com/share/9fc26bf91b2c4942ae6de09aef97a15a?sid=2f446d93-143a-47af-bdce-3c7f5fbd039b) <br> [5. Criando classe Account](https://www.loom.com/share/f2478425042f4893b84c33ef2f370ce2?sid=ad0ce712-b63c-475f-a709-b57ecf23d063) <br>|
+| 1 | [Cadastro e abertura de contas](#semana-1-cadastro-e-abertura-de-contas) | Aplicar os conceitos de classe, objeto, atributos, métodos, atributos e métodos de classe (static), modificadores de acesso, get e set, sobrecarga (_overload_) de métodos e construtores, palavra reservada _this_ | [1. Criando estrutura do projeto](https://www.loom.com/share/c73ab9d62c37401fa459efb0aed976a5?sid=dd1790a9-5f66-4c21-949e-f7aed289a0b1) <br> [2. Criando classe IDP Bank](https://www.loom.com/share/0067cbcf3ce4403fafc95d2b726992ec?sid=2f97e15d-b962-4fcc-b613-b429d12666c9) <br> [3. Criando classe Customer - parte 1](https://www.loom.com/share/8e4158403ab545f6803ab947e54bd9bb?sid=47477420-2df7-4441-a3ac-1f548811bb6e) <br> [4. Criando classe customer - parte 2](https://www.loom.com/share/9fc26bf91b2c4942ae6de09aef97a15a?sid=2f446d93-143a-47af-bdce-3c7f5fbd039b) <br> [5. Criando classe Account](https://www.loom.com/share/f2478425042f4893b84c33ef2f370ce2?sid=ad0ce712-b63c-475f-a709-b57ecf23d063) <br>|
 | 2 | [Possibilitar a abertura de diferentes tipos de contas](#semana-2-possibilitar-a-abertura-de-diferentes-tipos-de-contas) | Aplicar conceitos de herança, superclasses, subclasses e métodos sobrescritos (override) |
-| 3 | [Possibilidade de criar uma lista de contas e armazenar a lista de transações]() | Aplicar conceitos de Array e ArrayList |
+| 3 | [Possibilidade de criar uma lista de contas e armazenar a lista de transações](#semana-3-gerenciamento-de-múltiplas-contas-e-histórico-de-transações) | Aplicar conceitos de Array e ArrayList |
+| 4 | [Persistir em arquivo dados cadastrais e das transações](#semana-4-registro-de-transações-com-manipulação-de-arquivos-e-tratamento-de-exceções) | Manipulação de arquivos, tratamento de exceções (try/catch) |
 
 ### Semana 1: Cadastro e abertura de contas
 
@@ -144,7 +145,7 @@ Pressione enter para continuar...
     * `createCustomer`: deve receber `firstName`, `lastName` e `CPF`, todos do tipo `String`, e deve retornar um objeto `Customer`
     * `openAccount`: deve receber um objeto `Customer` e deve retornar um objeto `Account`.
     * `deposit`: recebe como parâmetro `amount` do tipo `double` para ser somado ao saldo `balance` da conta do cliente. Esse método deve delegar para a instância da conta e não devem ter lógicas adicionais e epecíficas da cona
-    * `withdraw`: recebe como parâmetro `amount` do tipo `double` para ser subtraído do saldo `balando` da conta do cliente. Esse método deve delegar para a instância da conta e não devem ter lógicas adicionais e epecíficas da cona
+    * `withdraw`: recebe como parâmetro `amount` do tipo `double` para ser subtraído do saldo `balance` da conta do cliente. Esse método deve delegar para a instância da conta e não devem ter lógicas adicionais e epecíficas da cona
 3. O programa deve ter uma classe chamada `Customer`, que deve ter:
     * atributos privados:
         * `firstName` (`String`): Primeiro nome do cliente.
@@ -187,7 +188,8 @@ Seja bem-vindo ao IDP Bank! Escolha uma das opções abaixo:
 2. Consultar cliente
 3. Depositar
 4. Sacar
-5. Sair
+5. Transferir
+6. Sair
 
 Digite o número correspondente à opção desejada: 
 ```
@@ -250,12 +252,7 @@ Digite o número da opção desejada:
    - Criar método `executeMonthlyProcessing()` que aplica taxas e rendimentos.
 1. Utilizar herança para que operações bancárias sejam tratadas de forma genérica, sem verificar manualmente o tipo da conta.
 
-
-Claro! Aqui está a **especificação da Semana 3 do projeto IDP Bank**, com foco no uso de **`Array` e `ArrayList`**, seguindo o estilo das semanas anteriores.
-
----
-
-### Semana 3: Gerenciamento de múltiplas contas e histórico de transações
+### Semana 3: Gerenciamento de múltiplas contas e histórico de transações 
 
 O programa IDP Bank deve permitir que cada cliente tenha **várias contas bancárias**, além de armazenar e consultar o **histórico de transações realizadas**. Para isso, deve ser aplicado os  os conceitos de `Array` e `ArrayList`
 
@@ -286,8 +283,9 @@ Seja bem-vindo ao IDP Bank! Escolha uma das opções abaixo:
 2. Consultar cliente
 3. Depositar
 4. Sacar
-5. Ver histórico de transações
-6. Sair
+5. Transferir
+6. Ver histórico de transações
+7. Sair
 ```
 
 #### Exemplo de histórico de transações
@@ -327,3 +325,60 @@ Pressione Enter para continuar...
    - Listar contas existentes para que o usuário escolha com qual operar
    - Permitir consultar o histórico de transações
    - Manter todos os clientes em uma `ArrayList<Customer>`
+
+### Semana 4: Persistência de dados em arquivos e tratamento de exceções
+
+Nesta etapa do projeto, você irá implementar a persistência local das informações de clientes e suas contas usando arquivos, além de persistir o registro de transações bancárias. Será necessário também aplicar tratamento de exceções para tornar o sistema mais robusto.
+
+#### Funcionalidades a serem implementadas
+
+1. **Persistência de clientes e contas**
+* Toda vez que um cliente for criado, alterado ou excluído, o sistema deve atualizar automaticamente o arquivo: `clientes.dat`
+1. **Registro de transações**
+* Cada operação de **depósito**, **saque** ou **trânsferência** realizada pelo cliente deve ser persistida em um arquivo de log com nome padrão:
+   ```
+   transacoes_<cpf>.txt
+   ```
+* O conteúdo do arquivo deve conter as informações como no exemplo abaixo:
+   ```
+   [DATA HORA] OPERAÇÃO: VALOR | SALDO FINAL
+   [2025-10-10 14:35:23] DEPÓSITO: R$500.00 | SALDO FINAL: R$1500.00
+   [2025-10-10 15:03:48] SAQUE: R$200.00 | SALDO FINAL: R$1300.00
+   ```
+
+1. **Visualização do extrato**
+
+* O usuário poderá selecionar a opção **"6. Extrato"** no menu principal.
+* O sistema deverá ler o conteúdo do arquivo de transações referente ao CPF do cliente e exibir linha por linha.
+* Se o arquivo não existir, uma mensagem de erro amigável deve ser apresentada informando que ainda não houve movimentações na conta.
+
+1. **Tratamento de exceções**
+
+* O sistema deve tratar possíveis exceções, como:
+** `IOException` ao tentar gravar ou ler arquivos.
+** `NumberFormatException` ao ler valores inválidos de entrada.
+** `NullPointerException` se a conta ou cliente não estiver inicializado corretamente.
+** `IllegalArgumentException` ao tentar depositar ou sacar valores negativos ou zerados.
+* Mensagens claras e amigáveis devem ser apresentadas ao usuário em caso de erro.
+
+#### Novas opções no menu principal
+
+```bash
+Seja bem-vindo ao IDP Bank! Escolha uma das opções abaixo:
+
+1. Abrir conta
+2. Consultar cliente
+3. Depositar
+4. Sacar
+5. Visualizar extrato
+6. Sair
+```
+
+#### Requisitos de Implementação
+
+1. Criar uma nova classe chamada `TransactionLogger` com os seguintes métodos:
+   * `public static void logTransaction(String cpf, String operation, double amount, double finalBalance)`
+   * `public static void displayTransactions(String cpf)`
+2. Utilizar as classes `java.io.FileWriter`, `BufferedWriter`, `FileReader` e `BufferedReader`.
+3. Aplicar blocos `try/catch` e, onde apropriado, `try-with-resources`.
+4. O código deve manter o padrão de organização, reutilização de métodos e coesão de responsabilidades aplicados nas semanas anteriores.

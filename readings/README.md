@@ -21,4 +21,12 @@ Nesta página você encontra:
 1. WEISFELD, Matt. [Introduction to Object-Oriented Concepts](https://1drv.ms/b/s!Avnn2LcOmn0Y30FECpNbluSX5fz0?e=kZy7D1). In: ___. The Object-Oriented Thought Process. 5. ed. Boston: Addison-Wesley, 2019.
 1. WEISFELD, Matt. [The SOLID Principles of Object-Oriented Design](https://1drv.ms/b/s!Avnn2LcOmn0Y30CzRDOHP2xAoOyn?e=nppvEw). In: ___ The Object-Oriented Thought Process. 5. ed. Boston: Addison-Wesley, 2019
 
+### Outras leituras
+
+1. [The End of Programming as We Know It ](https://www.oreilly.com/radar/the-end-of-programming-as-we-know-it/)
+1. [The Impact of AI on Computer Science Education](https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/)
+1. [English will become the most popular development language in 6 years](https://blog.almaer.com/english-will-become-the-most-popular-development-language-in-6-years/)
+1. [Why Writing by Hand Is Better for Memory and Learning](https://www.scientificamerican.com/article/why-writing-by-hand-is-better-for-memory-and-learning/)
+1. [Prompt Enginnering](https://1drv.ms/b/c/187d9a0eb7d8e7f9/EdC4xMjHwO5HhxMNELjXqdsBmjfFcQzDVB9tFNcs7t7Z2A?e=hMOFg0)
+
 

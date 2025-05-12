@@ -1,6 +1,12 @@
-### Slides da Disciplina
+## Conteúdo da disciplina
 
-Aqui você encontrará referência para os slides utilizados ao longo do curso.
+Nesta página você encontra:
+* [Slides apresentados em sala](#slides-apresentados-em-sala)
+* [Livros de referência](#livros)
+* [Artigos](#artigos)
+* [Cursos de outras universidades](#cursos)
+
+### Slides apresentados em sala
 
 |#|Conteúdo|Atividade em sala|
 |---|---|---|
@@ -17,12 +23,10 @@ Aqui você encontrará referência para os slides utilizados ao longo do curso.
 | 11 | Continuação aula anterior | [Estudo de caso: IDP Bank (Semana 2)](../challenges/02-bank/) | Desenvolvimento do estudo de caso: IDP Bank (Semana 2)  |
 | 12 | [Arrays](https://1drv.ms/p/s!Avnn2LcOmn0Y31mEsDxOHyKDT0OE?e=QwcIjL) | [Quizz: herança, extends, override, super, abstract, polimorfismo, encapsulamento, package, import](https://idp2.vevox.com/#/share/88XFCK5F9CGYWC2UU07E/meetingdata/727316/session/731253) |
 | 12 | Continuação aula anterior | [Análise de código arrays](../lectures/examples/07-arrays) |
+| 13 | [Manipulação de arquivos em Java](https://1drv.ms/p/c/187d9a0eb7d8e7f9/ER83TNCSyDBEu5m2MiR-xDkBBf8nV7BOBS-IKMNyMY0WjQ?e=ZJDNe6) |  |
 
-### Referências
 
-Referências de livros, artigos, cursos e outros materiais utilizados na disciplina.
-
-### Livros
+### Livros de referência
 
 1. BUDD, Timothy. **An Introduction to Object-Oriented Programming**. 3. ed. Boston: Addison-Wesley, 2002. ISBN 0-201-76031-2.
 2. DEITEL, Paul; DEITEL, Harvey. **Java: How to Program, Early Objects**. 11. ed. Boston: Pearson, 2017. ISBN 978-0-13-474335-6.

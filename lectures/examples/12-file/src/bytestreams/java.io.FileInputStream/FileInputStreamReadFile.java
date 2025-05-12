@@ -2,7 +2,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-class ShowFile { 
+class FileInputStreamReadFile { 
     public static void main(String[] args) { 
         int i; 
         FileInputStream fin; 
@@ -25,12 +25,12 @@ class ShowFile {
             } while(i != -1); 
         } catch(IOException e) { 
             System.out.println("Error Reading File"); 
-        } 
-    
-        try { 
-            fin.close(); 
-        } catch(IOException e) { 
-            System.out.println("Error Closing File"); 
-        } 
+        } //finally { 
+            try { 
+                fin.close(); 
+            } catch(IOException e) { 
+                System.out.println("Error Closing File"); 
+            } 
+        //}
     } 
 } 

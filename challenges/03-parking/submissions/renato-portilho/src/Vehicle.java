@@ -1,9 +1,9 @@
-public abstract class vehicle {
+public abstract class Vehicle {
     public String plate;
     public String model;
     public String brand;
 
-    public vehicle(String plate, String model, String brand) {
+    public Vehicle(String plate, String model, String brand) {
         this.plate = plate;
         this.model = model;
         this.brand = brand;
@@ -36,12 +36,8 @@ public abstract class vehicle {
         this.brand = brand;
     }
 
-    public String toString(){
-        
-        return "Veículo: "+this.getClass().getSimpleName()+ " Placa: " +getPlate()+ " Marca: " +getBrand()+ " Modelo: " +getModel();
-    }
+    public abstract String toString();
 }
-
 
 
 

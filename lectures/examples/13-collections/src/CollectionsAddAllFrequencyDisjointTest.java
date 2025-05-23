@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Algorithms2 {
+public class CollectionsAddAllFrequencyDisjointTest {
     public static void main(String[] args) {
 
         String[] colors = {"red", "white", "yellow", "blue"};

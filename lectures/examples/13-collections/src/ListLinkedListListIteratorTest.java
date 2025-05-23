@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class ListTest {
+public class ListLinkedListListIteratorTest {
     public static void main(String[] args) {
         
         String[] colors = {"black", "yellow", "green", "blue", "violet", "silver"};
@@ -12,7 +12,6 @@ public class ListTest {
             list1.add(color);
         }
 
-        // adiciona elementos de colors2 à list2
         String[] colors2 = {"gold", "white", "brown", "blue", "gray", "silver"};
         List<String> list2 = new LinkedList<>();
 

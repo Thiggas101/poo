@@ -1,15 +1,7 @@
-import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
-public class FactoryMethods {
+public class MapOfTest {
     public static void main(String[] args) {
-
-        List<String> colorList = List.of("red", "orange", "yellow", "green", "blue", "indigo", "violet");
-        System.out.printf("colorList: %s%n%n", colorList);
-
-        Set<String> colorSet = Set.of("red", "orange", "yellow", "green", "blue", "indigo", "violet");
-        System.out.printf("colorSet: %s%n%n", colorSet);
 
         Map<String, Integer> dayMap = Map.of(
             "Monday", 1,

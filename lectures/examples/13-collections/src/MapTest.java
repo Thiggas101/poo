@@ -1,10 +1,10 @@
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
-import java.util.Scanner;
 
-public class WordTypeCount {
+public class MapTest {
     public static void main(String[] args) {
         Map<String, Integer> myMap = new HashMap<>();
 

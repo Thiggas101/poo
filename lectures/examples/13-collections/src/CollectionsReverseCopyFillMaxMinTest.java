@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Algorithms1 {
+public class CollectionsReverseCopyFillMaxMinTest {
     public static void main(String[] args) {
         Character[] letters = {'P', 'C', 'M'};
 

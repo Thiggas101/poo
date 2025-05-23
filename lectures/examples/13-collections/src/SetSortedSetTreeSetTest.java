@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class SortedSetTest {
+public class SetSortedSetTreeSetTest {
     public static void main(String[] args) {
         // cria TreeSet a partir do array colors
         String[] colors = {"yellow", "green", "black", "tan", "grey", "white", "orange", "red", "green"};

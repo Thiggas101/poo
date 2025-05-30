@@ -16,6 +16,7 @@
 *.nar
 *.ear
 *.zip
+*.tar
 *.tar.gz
 *.rar
 
@@ -27,3 +28,4 @@ target/
 lib/
 
 .qodo/
+*.properties

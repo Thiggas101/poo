@@ -1,0 +1,33 @@
+Relatório da Copa IDP
+
+Vasco - 3 pontos
+- Atletas: 
+Lucas
+Miguel
+- Partidas:
+  - girlpwr - Venceu
+  - Botafogo - Perdeu
+  - girlpwr - Perdeu
+
+Botafogo - 3 pontos
+- Atletas: 
+Carlos
+João
+- Partidas:
+  - girlpwr - Perdeu
+  - Vasco - Venceu
+
+girlpwr - 6 pontos
+- Atletas: 
+Dedeia
+Solange
+- Partidas:
+  - Botafogo - Venceu
+  - Vasco - Perdeu
+  - Vasco - Venceu
+
+Todas as Partidas:
+Botafogo vs girlpwr - Vencedor: girlpwr
+Vasco vs girlpwr - Vencedor: Vasco
+Botafogo vs Vasco - Vencedor: Botafogo
+Vasco vs girlpwr - Vencedor: girlpwr

@@ -112,21 +112,9 @@ Explique como realizar a criação, cópia, movimentação e exclusão com NIO.2
 
 #### Serialização de Objetos
 
-##### Conceito de Serialização e XML:**
-
 ```
-Explique de maneira detalhada o conceito de serialização de objetos e o que é XML e responda as questões:
+Explique de maneira detalhada o conceito de serialização de objetos e responda as questões:
 
 1. O que é serialização em Java?
-2. Quais são os benefícios da serialização em XML?
-3. Apresente um exemplo de estrutura XML para representar um objeto `Pessoa`.
-```
-
-##### Uso do JAXB para Serializar e Desserializar
-
-```
-1. O que é o JAXB e como ele facilita a serialização de objetos em XML?
-2. Crie uma classe `Pessoa` anotada com `@XmlRootElement`, `@XmlElement`, etc.
-3. Implemente um exemplo que grave uma lista de objetos `Pessoa` em um arquivo XML.
-4. Implemente um exemplo que leia o arquivo XML e reconstrua a lista de objetos.
+2. Quais são os benefícios da serialização?
 ```

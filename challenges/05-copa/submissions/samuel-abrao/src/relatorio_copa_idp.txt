@@ -1,0 +1,33 @@
+Relatório da Copa IDP
+
+Time1 - 6 pontos
+- Atletas:
+  Atleta1
+  Atleta2
+- Partidas:
+  - Time2 - Venceu
+  - Time3 - Perdeu
+  - Time2 - Venceu
+
+Time2 - 0 pontos
+- Atletas:
+  Atleta3
+  Atleta4
+- Partidas:
+  - Time1 - Perdeu
+  - Time3 - Perdeu
+  - Time1 - Perdeu
+
+Time3 - 6 pontos
+- Atletas:
+  Atleta5
+  Atleta6
+- Partidas:
+  - Time2 - Venceu
+  - Time1 - Venceu
+
+Todas as Partidas:
+Time1 vs Time2 - Vencedor: Time1
+Time2 vs Time3 - Vencedor: Time3
+Time1 vs Time3 - Vencedor: Time3
+Time2 vs Time1 - Vencedor: Time1

@@ -49,14 +49,6 @@ Descreva como o JDBC processa os resultados de uma consulta.
 3. O que é ResultSetMetaData e como ele pode ser usado?
 ```
 
-### Populando JTable com Dados
-
-```
-Demonstre como exibir os dados do banco em uma JTable usando TableModel.
-1. Crie uma classe `ResultSetTableModel` que use um ResultSet.
-2. Adicione funcionalidades de ordenação e filtro usando RowFilter.
-```
-
 ### RowSet e Conexões Simplificadas
 
 ```

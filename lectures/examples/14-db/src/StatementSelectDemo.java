@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
-public class Film {
+public class StatementSelectDemo {
     public static void main(String[] args) {
         Properties props = new Properties();
 
@@ -25,6 +25,7 @@ public class Film {
         final String DATABASE_URL = props.getProperty("url");
         final String USER = props.getProperty("user");
         final String PASSWORD = props.getProperty("password");
+        
         final String SELECT_QUERY = "SELECT * FROM film";
 
         try (

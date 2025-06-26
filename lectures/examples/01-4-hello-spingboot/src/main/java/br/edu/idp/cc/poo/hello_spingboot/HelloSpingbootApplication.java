@@ -15,13 +15,13 @@ public class HelloSpingbootApplication {
 	}
 
 	@GetMapping("/hello")
-    public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-      return String.format("Hello %s!", name);
-    }
+  public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+    return String.format("Hello %s!", name);
+  }
 
 	@GetMapping("/")
-    public String home() {
-      return "Spring Boot is up and runnig!";
-    }
+  public String home() {
+    return "Spring Boot is up and runnig!";
+  }
 
 }

@@ -10,8 +10,10 @@
 
 - Instalar o PostgreSQL
 ```bash
+sudo apt install -y postgresql-common
+sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
 sudo apt update
-sudo apt install postgresql postgresql-contrib postgresql-common postgresql-client
+sudo apt install postgresql postgresql-client
 ```
 
 - Iniciar o serviço do PostgreSQL
@@ -26,6 +28,12 @@ sudo -u postgres psql
 
 ```bash
 postgres=#  \password postgres
+```
+
+Caso o comando `sudo -u postgres psql` solicite senha do root e você não tenha, alterar o tipo de conexão para `trust` executando o comando abaixo
+
+```bash
+sudo nano /etc/postgresql/17/main/pg_hba.conf
 ```
 
 - Testar conexão com PostgreSQL
@@ -116,6 +124,12 @@ sudo /usr/pgadmin4/bin/setup-web.sh
 sudo nano /etc/apache2/ports.conf
 ```
 
+- Adicionar a configuração `ServerName localhost` ao final do arquivo
+```bash
+sudo nano /etc/apache2/apache2.conf
+```
+
+- Reiniciar o serviço
 ```bash
 sudo service apache2 start
 ```

@@ -26,6 +26,7 @@ replay_pid*
 .vscode/
 target/
 lib/
+bin/
 
 .qodo/
 *.properties

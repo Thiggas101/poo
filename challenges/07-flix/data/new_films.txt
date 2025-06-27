@@ -1,0 +1,50 @@
+Cidade de Deus;1;99;9.99;99.99
+Central do Brasil;1;99;9.99;99.99
+Tropa de Elite;1;99;9.99;99.99
+O Auto da Compadecida;1;99;9.99;99.99
+Que Horas Ela Volta?;1;99;9.99;99.99
+O Homem do Futuro;1;99;9.99;99.99
+O Palhaço;1;99;9.99;99.99
+Bacurau;1;99;9.99;99.99
+Aquarius;1;99;9.99;99.99
+Carandiru;1;99;9.99;99.99
+2 Filhos de Francisco;1;99;9.99;99.99
+O Som ao Redor;1;99;9.99;99.99
+Lixo Extraordinário;1;99;9.99;99.99
+O Ano em que Meus Pais Saíram de Férias;1;99;9.99;99.99
+Meu Nome Não É Johnny;1;99;9.99;99.99
+Narradores de Javé;1;99;9.99;99.99
+Hoje Eu Quero Voltar Sozinho;1;99;9.99;99.99
+As Melhores Coisas do Mundo;1;99;9.99;99.99
+Bicho de Sete Cabeças;1;99;9.99;99.99
+Linha de Passe;1;99;9.99;99.99
+Se Eu Fosse Você;1;99;9.99;99.99
+Minha Mãe É uma Peça;1;99;9.99;99.99
+Vai que Dá Certo;1;99;9.99;99.99
+Saneamento Básico;1;99;9.99;99.99
+O Bem Amado;1;99;9.99;99.99
+Bruna Surfistinha;1;99;9.99;99.99
+Os Normais;1;99;9.99;99.99
+De Pernas pro Ar;1;99;9.99;99.99
+Até que a Sorte nos Separe;1;99;9.99;99.99
+Cazuza;1;99;9.99;99.99
+Chico Xavier;1;99;9.99;99.99
+Elis;1;99;9.99;99.99
+Tim Maia;1;99;9.99;99.99
+Besouro;1;99;9.99;99.99
+Lula, o Filho do Brasil;1;99;9.99;99.99
+A Dona da História;1;99;9.99;99.99
+Casa de Areia;1;99;9.99;99.99
+Dois Filhos de Francisco;1;99;9.99;99.99
+O Casamento de Romeu e Julieta;1;99;9.99;99.99
+Pequeno Dicionário Amoroso;1;99;9.99;99.99
+O Quatrilho;1;99;9.99;99.99
+Olga;1;99;9.99;99.99
+Zuzu Angel;1;99;9.99;99.99
+Cidade Baixa;1;99;9.99;99.99
+Amarelo Manga;1;99;9.99;99.99
+Estômago;1;99;9.99;99.99
+Faroeste Caboclo;1;99;9.99;99.99
+Era uma Vez...;1;99;9.99;99.99
+Redemoinho;1;99;9.99;99.99
+O Lobo Atrás da Porta;1;99;9.99;99.99

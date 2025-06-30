@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         String url = "jdbc:postgresql://aws-0-sa-east-1.pooler.supabase.com:5432/postgres";
         String user = "postgres.snghnxpdoffuasscqmms";
-        String password = "idpccpoo";
+        String password = "";
         String filePath = "/home/thiago/Área de trabalho/idp/3Semestre/poo/challenges/07-flix/data/new_films.txt";
         
         List<Film> films = FileReaderUtil.readFilmsFromFile(filePath);
